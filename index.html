@@ -27,22 +27,17 @@
 
 
 
- /* html, body {
+  html, body {
     height: 100%;
     margin: 0;
-  }*/
+  }
   body {
-    height: 90vh;
     background: white;
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 10vh;
   }
   canvas {
-  height: 90vh; 
-  width: 90vw; 
-  display: block;
 
     border: 1px solid black;
   }
@@ -184,6 +179,7 @@ $("#game").touchwipe({
     snake.dx = 0; },
      min_move_x: 20,
      min_move_y: 20,
+     
      preventDefaultEvents: true
 });
 
